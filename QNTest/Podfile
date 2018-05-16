@@ -1,0 +1,20 @@
+
+#source 'git@gitee.com:www_wjs_com/IJSPluginSpec.git'  # 注意必须这么写
+#source 'https://github.com/AFNetworking/AFNetworking.git'
+
+target 'QNTest' do
+    
+#pod 'IJSPageController'
+
+#pod 'AFNetworking'
+
+
+#布局
+#pod 'Masonry'
+#pod 'MXSegmentedPager'
+#pod 'WMPageController'
+
+
+
+
+end

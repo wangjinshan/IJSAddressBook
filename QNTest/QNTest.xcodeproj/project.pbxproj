@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2033682A1B50FFA882EB6743 /* libPods-QNTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86453A82A6209D68CA30F6CA /* libPods-QNTest.a */; };
+		74791F8A20ABDA8700899845 /* BBanAddressManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74791F8120ABDA8700899845 /* BBanAddressManager.m */; };
+		74791F8B20ABDA8700899845 /* BBanAddressPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 74791F8620ABDA8700899845 /* BBanAddressPerson.m */; };
+		74791F8C20ABDA8700899845 /* BBanAddPersonHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74791F8720ABDA8700899845 /* BBanAddPersonHandle.m */; };
+		74791F8D20ABDA8700899845 /* BBanCommunicationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 74791F8820ABDA8700899845 /* BBanCommunicationManager.m */; };
+		74791F8E20ABDA8700899845 /* BBanSelectedPersonHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 74791F8920ABDA8700899845 /* BBanSelectedPersonHandle.m */; };
+		74791F9120ABDB4B00899845 /* BBanAddressListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74791F9020ABDB4B00899845 /* BBanAddressListController.m */; };
+		74791F9820ABDB8F00899845 /* BBanTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74791F9620ABDB8F00899845 /* BBanTestViewController.m */; };
+		74791F9920ABDB8F00899845 /* BBanTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74791F9720ABDB8F00899845 /* BBanTestViewController.xib */; };
+		74791F9C20ABDEC000899845 /* BBanAddressListTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 74791F9B20ABDEC000899845 /* BBanAddressListTabCell.m */; };
+		74791FA120AC0B3100899845 /* BBanFRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 74791F9F20AC0B3100899845 /* BBanFRegular.m */; };
+		74791FA620AC0BC600899845 /* BBanFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74791FA520AC0BC600899845 /* BBanFViewController.m */; };
+		74791FA920AC0C5400899845 /* BBanFDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 74791FA820AC0C5400899845 /* BBanFDevice.m */; };
+		74F976D62067EAE00029E187 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F976D52067EAE00029E187 /* AppDelegate.m */; };
+		74F976DC2067EAE00029E187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F976DA2067EAE00029E187 /* Main.storyboard */; };
+		74F976DE2067EAE00029E187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74F976DD2067EAE00029E187 /* Assets.xcassets */; };
+		74F976E12067EAE00029E187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74F976DF2067EAE00029E187 /* LaunchScreen.storyboard */; };
+		74F976E42067EAE00029E187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F976E32067EAE00029E187 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74791F8020ABDA8700899845 /* BBanAddressManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBanAddressManager.h; sourceTree = "<group>"; };
+		74791F8120ABDA8700899845 /* BBanAddressManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBanAddressManager.m; sourceTree = "<group>"; };
+		74791F8220ABDA8700899845 /* BBanSelectedPersonHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBanSelectedPersonHandle.h; sourceTree = "<group>"; };
+		74791F8320ABDA8700899845 /* BBanAddPersonHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBanAddPersonHandle.h; sourceTree = "<group>"; };
+		74791F8420ABDA8700899845 /* BBanAddressPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBanAddressPerson.h; sourceTree = "<group>"; };
+		74791F8520ABDA8700899845 /* BBanCommunicationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBanCommunicationManager.h; sourceTree = "<group>"; };
+		74791F8620ABDA8700899845 /* BBanAddressPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBanAddressPerson.m; sourceTree = "<group>"; };
+		74791F8720ABDA8700899845 /* BBanAddPersonHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBanAddPersonHandle.m; sourceTree = "<group>"; };
+		74791F8820ABDA8700899845 /* BBanCommunicationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBanCommunicationManager.m; sourceTree = "<group>"; };
+		74791F8920ABDA8700899845 /* BBanSelectedPersonHandle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBanSelectedPersonHandle.m; sourceTree = "<group>"; };
+		74791F8F20ABDB4B00899845 /* BBanAddressListController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBanAddressListController.h; sourceTree = "<group>"; };
+		74791F9020ABDB4B00899845 /* BBanAddressListController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBanAddressListController.m; sourceTree = "<group>"; };
+		74791F9520ABDB8F00899845 /* BBanTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBanTestViewController.h; sourceTree = "<group>"; };
+		74791F9620ABDB8F00899845 /* BBanTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBanTestViewController.m; sourceTree = "<group>"; };
+		74791F9720ABDB8F00899845 /* BBanTestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BBanTestViewController.xib; sourceTree = "<group>"; };
+		74791F9A20ABDEC000899845 /* BBanAddressListTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBanAddressListTabCell.h; sourceTree = "<group>"; };
+		74791F9B20ABDEC000899845 /* BBanAddressListTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBanAddressListTabCell.m; sourceTree = "<group>"; };
+		74791F9D20ABDFC800899845 /* BBanAddressAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBanAddressAPI.h; sourceTree = "<group>"; };
+		74791F9F20AC0B3100899845 /* BBanFRegular.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBanFRegular.m; sourceTree = "<group>"; };
+		74791FA020AC0B3100899845 /* BBanFRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBanFRegular.h; sourceTree = "<group>"; };
+		74791FA320AC0B8B00899845 /* BBanFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBanFoundation.h; sourceTree = "<group>"; };
+		74791FA420AC0BC600899845 /* BBanFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBanFViewController.h; sourceTree = "<group>"; };
+		74791FA520AC0BC600899845 /* BBanFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBanFViewController.m; sourceTree = "<group>"; };
+		74791FA720AC0C5400899845 /* BBanFDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBanFDevice.h; sourceTree = "<group>"; };
+		74791FA820AC0C5400899845 /* BBanFDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBanFDevice.m; sourceTree = "<group>"; };
+		74F976D12067EAE00029E187 /* QNTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QNTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F976D42067EAE00029E187 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74F976D52067EAE00029E187 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74F976DB2067EAE00029E187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74F976DD2067EAE00029E187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74F976E02067EAE00029E187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74F976E22067EAE00029E187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74F976E32067EAE00029E187 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		86453A82A6209D68CA30F6CA /* libPods-QNTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QNTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5521D61E71B79944FB216DF /* Pods-QNTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QNTest/Pods-QNTest.debug.xcconfig"; sourceTree = "<group>"; };
+		AC76CDA4C0B97CCC88961018 /* Pods-QNTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QNTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-QNTest/Pods-QNTest.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74F976CE2067EAE00029E187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2033682A1B50FFA882EB6743 /* libPods-QNTest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC9B1CA08636637EA25DECF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86453A82A6209D68CA30F6CA /* libPods-QNTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AAAB2D6A047D2ADCF3BEEFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5521D61E71B79944FB216DF /* Pods-QNTest.debug.xcconfig */,
+				AC76CDA4C0B97CCC88961018 /* Pods-QNTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74791F5020ABD7AA00899845 /* BBanAddressManager */ = {
+			isa = PBXGroup;
+			children = (
+				74791F6F20ABDA7900899845 /* API */,
+				74791F7A20ABDA7900899845 /* UI */,
+			);
+			path = BBanAddressManager;
+			sourceTree = SOURCE_ROOT;
+		};
+		74791F6F20ABDA7900899845 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				74791F9D20ABDFC800899845 /* BBanAddressAPI.h */,
+				74791F8020ABDA8700899845 /* BBanAddressManager.h */,
+				74791F8120ABDA8700899845 /* BBanAddressManager.m */,
+				74791F8520ABDA8700899845 /* BBanCommunicationManager.h */,
+				74791F8820ABDA8700899845 /* BBanCommunicationManager.m */,
+				74791F8420ABDA8700899845 /* BBanAddressPerson.h */,
+				74791F8620ABDA8700899845 /* BBanAddressPerson.m */,
+				74791F8220ABDA8700899845 /* BBanSelectedPersonHandle.h */,
+				74791F8920ABDA8700899845 /* BBanSelectedPersonHandle.m */,
+				74791F8320ABDA8700899845 /* BBanAddPersonHandle.h */,
+				74791F8720ABDA8700899845 /* BBanAddPersonHandle.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		74791F7A20ABDA7900899845 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				74791F8F20ABDB4B00899845 /* BBanAddressListController.h */,
+				74791F9020ABDB4B00899845 /* BBanAddressListController.m */,
+				74791F9A20ABDEC000899845 /* BBanAddressListTabCell.h */,
+				74791F9B20ABDEC000899845 /* BBanAddressListTabCell.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		74791F9E20AC0B3100899845 /* BBFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				74791FA320AC0B8B00899845 /* BBanFoundation.h */,
+				74791FA420AC0BC600899845 /* BBanFViewController.h */,
+				74791FA520AC0BC600899845 /* BBanFViewController.m */,
+				74791FA020AC0B3100899845 /* BBanFRegular.h */,
+				74791F9F20AC0B3100899845 /* BBanFRegular.m */,
+				74791FA720AC0C5400899845 /* BBanFDevice.h */,
+				74791FA820AC0C5400899845 /* BBanFDevice.m */,
+			);
+			path = BBFoundation;
+			sourceTree = "<group>";
+		};
+		74F976C82067EAE00029E187 = {
+			isa = PBXGroup;
+			children = (
+				74F976D32067EAE00029E187 /* QNTest */,
+				74F976D22067EAE00029E187 /* Products */,
+				5AAAB2D6A047D2ADCF3BEEFB /* Pods */,
+				0AC9B1CA08636637EA25DECF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74F976D22067EAE00029E187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74F976D12067EAE00029E187 /* QNTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74F976D32067EAE00029E187 /* QNTest */ = {
+			isa = PBXGroup;
+			children = (
+				74791F9E20AC0B3100899845 /* BBFoundation */,
+				74791F5020ABD7AA00899845 /* BBanAddressManager */,
+				74F976D42067EAE00029E187 /* AppDelegate.h */,
+				74F976D52067EAE00029E187 /* AppDelegate.m */,
+				74791F9520ABDB8F00899845 /* BBanTestViewController.h */,
+				74791F9620ABDB8F00899845 /* BBanTestViewController.m */,
+				74791F9720ABDB8F00899845 /* BBanTestViewController.xib */,
+				74F976DA2067EAE00029E187 /* Main.storyboard */,
+				74F976DD2067EAE00029E187 /* Assets.xcassets */,
+				74F976DF2067EAE00029E187 /* LaunchScreen.storyboard */,
+				74F976E22067EAE00029E187 /* Info.plist */,
+				74F976E32067EAE00029E187 /* main.m */,
+			);
+			path = QNTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74F976D02067EAE00029E187 /* QNTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74F976E72067EAE00029E187 /* Build configuration list for PBXNativeTarget "QNTest" */;
+			buildPhases = (
+				9C9CE3BE1B3FA74415B60FEE /* [CP] Check Pods Manifest.lock */,
+				74F976CD2067EAE00029E187 /* Sources */,
+				74F976CE2067EAE00029E187 /* Frameworks */,
+				74F976CF2067EAE00029E187 /* Resources */,
+				1A55DC7DEC5BAC7F9A683DE7 /* [CP] Embed Pods Frameworks */,
+				D9445C170D5888264A2AF9A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QNTest;
+			productName = QNTest;
+			productReference = 74F976D12067EAE00029E187 /* QNTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74F976C92067EAE00029E187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BBan;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "山神";
+				TargetAttributes = {
+					74F976D02067EAE00029E187 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 74F976CC2067EAE00029E187 /* Build configuration list for PBXProject "QNTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74F976C82067EAE00029E187;
+			productRefGroup = 74F976D22067EAE00029E187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74F976D02067EAE00029E187 /* QNTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74F976CF2067EAE00029E187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74F976E12067EAE00029E187 /* LaunchScreen.storyboard in Resources */,
+				74791F9920ABDB8F00899845 /* BBanTestViewController.xib in Resources */,
+				74F976DE2067EAE00029E187 /* Assets.xcassets in Resources */,
+				74F976DC2067EAE00029E187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A55DC7DEC5BAC7F9A683DE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QNTest/Pods-QNTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9CE3BE1B3FA74415B60FEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QNTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9445C170D5888264A2AF9A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QNTest/Pods-QNTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74F976CD2067EAE00029E187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74791F8A20ABDA8700899845 /* BBanAddressManager.m in Sources */,
+				74791F9C20ABDEC000899845 /* BBanAddressListTabCell.m in Sources */,
+				74F976E42067EAE00029E187 /* main.m in Sources */,
+				74791F8C20ABDA8700899845 /* BBanAddPersonHandle.m in Sources */,
+				74791FA620AC0BC600899845 /* BBanFViewController.m in Sources */,
+				74791F8B20ABDA8700899845 /* BBanAddressPerson.m in Sources */,
+				74F976D62067EAE00029E187 /* AppDelegate.m in Sources */,
+				74791FA120AC0B3100899845 /* BBanFRegular.m in Sources */,
+				74791FA920AC0C5400899845 /* BBanFDevice.m in Sources */,
+				74791F8E20ABDA8700899845 /* BBanSelectedPersonHandle.m in Sources */,
+				74791F8D20ABDA8700899845 /* BBanCommunicationManager.m in Sources */,
+				74791F9820ABDB8F00899845 /* BBanTestViewController.m in Sources */,
+				74791F9120ABDB4B00899845 /* BBanAddressListController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74F976DA2067EAE00029E187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F976DB2067EAE00029E187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74F976DF2067EAE00029E187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74F976E02067EAE00029E187 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74F976E52067EAE00029E187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74F976E62067EAE00029E187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74F976E82067EAE00029E187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5521D61E71B79944FB216DF /* Pods-QNTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF3BSY7RH3;
+				INFOPLIST_FILE = QNTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenzoom.ijs.QNTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74F976E92067EAE00029E187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC76CDA4C0B97CCC88961018 /* Pods-QNTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PF3BSY7RH3;
+				INFOPLIST_FILE = QNTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenzoom.ijs.QNTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74F976CC2067EAE00029E187 /* Build configuration list for PBXProject "QNTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F976E52067EAE00029E187 /* Debug */,
+				74F976E62067EAE00029E187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74F976E72067EAE00029E187 /* Build configuration list for PBXNativeTarget "QNTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F976E82067EAE00029E187 /* Debug */,
+				74F976E92067EAE00029E187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74F976C92067EAE00029E187 /* Project object */;
+}
